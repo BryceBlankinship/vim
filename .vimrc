@@ -45,6 +45,7 @@ Plug '~/my-prototype-plugin'
 
 Plug 'sainnhe/everforest'
 Plug 'vim-airline/vim-airline'
+Plug 'ycm-core/YouCompleteMe'
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
