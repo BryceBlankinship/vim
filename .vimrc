@@ -45,6 +45,7 @@ Plug '~/my-prototype-plugin'
 
 Plug 'sainnhe/everforest'
 Plug 'vim-airline/vim-airline'
+Plug 'ycm-core/YouCompleteMe'
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
@@ -69,3 +70,5 @@ call plug#end()
 
 	" Use homebrew's clangd
 	let g:ycm_clangd_binary_path = trim(system('brew --prefix llvm')).'/bin/clangd'
+
+	set tabstop=4
