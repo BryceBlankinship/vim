@@ -34,6 +34,3 @@ cd ~/.vim/plugged/YouCompleteMe
 python3 install.py --system-libclang --all
 ```
 
-
-
-
